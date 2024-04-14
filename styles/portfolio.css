@@ -16,7 +16,6 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    /* margin-top: 15px; */
 }
 
 .section-tittle{
@@ -67,31 +66,34 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
-.bannaer-content{
-    max-width: 500px;
+.banner-content{
+    max-width: 650px;
 }
 .banner .profile-pic{
     width: 500px;
 }
-.bannar-greeting{
+.banner-greeting{
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.bannar-tittle{
+.banner-tittle{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.bannar-description{
-     /* margin-top: 5px; */
+.banner-description{
     margin-bottom: 20px; 
     font-size: 16px;
     font-weight: 500;
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section stuyles */
 .about{
@@ -99,4 +101,11 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
